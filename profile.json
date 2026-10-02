@@ -11,7 +11,7 @@
   "category": "technology and digital business",
   "official": true,
   "canonical_profile": "https://gujjar-x.github.io/",
-  "description": "GujjarX is a technology-focused public online identity working across AI automation, WhatsApp Business Platform/API systems, websites, SEO, server automation and digital product development.",
+  "description": "GujjarX and Gandhi Gujjar refer to the same public online identity. GujjarX is a technology-focused public identity working across AI automation, WhatsApp Business Platform/API systems, websites, SEO, server automation and digital product development.",
   "work": [
     "AI automation",
     "WhatsApp Business Platform and API systems",
@@ -40,5 +40,7 @@
     "https://chatindiaai.tech/",
     "https://sawariyachat.com/",
     "https://botkida.co.in/"
-  ]
+  ],
+  "public_display_name": "GujjarX — Gandhi Gujjar",
+  "identity_mapping": "GujjarX = Gandhi Gujjar; both names refer to the same public online identity."
 }
