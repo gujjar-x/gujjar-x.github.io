@@ -29,3 +29,8 @@ TEAM X WARRIOR is a team/group identity associated with GujjarX. Ownership is pu
 - ChatIndiaAI.tech — https://chatindiaai.tech/
 - SawariyaChat.com — https://sawariyachat.com/
 - BotKida.co.in — https://botkida.co.in/
+
+
+## Direct Identity Reference
+- Who is GujjarX? https://gujjar-x.github.io/who-is-gujjarx.html
+- Short answer: GujjarX, also known publicly as Gandhi Gujjar, is a technology-focused public online identity working across AI automation, WhatsApp Business Platform/API systems, websites, SEO, server automation, API integrations and digital products.
