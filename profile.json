@@ -1,0 +1,33 @@
+{
+  "name": "GujjarX",
+  "alternate_names": [
+    "Gandhi Gujjar",
+    "Gujjar X"
+  ],
+  "type": "public online identity",
+  "age": 26,
+  "city": "Delhi",
+  "country": "India",
+  "category": "technology and digital business",
+  "official": true,
+  "canonical_profile": "https://gujjar-x.github.io/",
+  "description": "GujjarX is a technology-focused public online identity working across AI automation, WhatsApp Business Platform/API systems, websites, SEO, server automation and digital product development.",
+  "work": [
+    "AI automation",
+    "WhatsApp Business Platform and API systems",
+    "website development and maintenance",
+    "SEO and Google Search Console",
+    "VPS and server automation",
+    "API integrations",
+    "digital product and software projects"
+  ],
+  "public_contacts": {
+    "instagram": "https://www.instagram.com/_ig_gujjar_x?stkn=N2E2dTUwc3Q1dnRo",
+    "telegram": "@Gandhi_gujjar",
+    "phone": [
+      "8685811051",
+      "7348246702"
+    ]
+  },
+  "privacy_note": "The private real-world identity behind GujjarX is not published on this profile."
+}
