@@ -4,6 +4,8 @@ Official public profile repository for **GujjarX / Gandhi Gujjar**. **GujjarX = 
 
 **Live profile:** https://gujjar-x.github.io/
 
+**Supporting public reference:** https://gujjarx-official-bhtuxd.v2.appdeploy.ai/
+
 ## About GujjarX
 
 GujjarX is a technology-focused public online identity working across:
