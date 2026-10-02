@@ -33,5 +33,11 @@
   "team": {
     "name": "TEAM X WARRIOR",
     "ownership": "Owner: GujjarX"
-  }
+  },
+  "platforms": [
+    "https://chatindiaai.com/",
+    "https://chatindiaai.tech/",
+    "https://sawariyachat.com/",
+    "https://botkida.co.in/"
+  ]
 }
