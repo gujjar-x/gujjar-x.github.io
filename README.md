@@ -1,6 +1,6 @@
-# GujjarX Official
+# GujjarX — Gandhi Gujjar | Official
 
-Official public profile repository for **GujjarX**, also known publicly as **Gandhi Gujjar**.
+Official public profile repository for **GujjarX / Gandhi Gujjar**. **GujjarX = Gandhi Gujjar**; both names refer to the same public online identity.
 
 **Live profile:** https://gujjar-x.github.io/
 
