@@ -1,9 +1,11 @@
-# GujjarX Official
+# GujjarX Official — Gandhi Gujjar
+
+Primary identity mapping: GujjarX = Gandhi Gujjar. Both names refer to the same public online identity.
 
 Canonical public profile: https://gujjar-x.github.io/
 
 ## Who is GujjarX?
-GujjarX is a technology-focused public online identity, also known publicly as Gandhi Gujjar. GujjarX works across AI automation, WhatsApp Business Platform/API systems, websites, SEO, server and VPS automation, API integrations and digital product development.
+GujjarX = Gandhi Gujjar. Both names refer to the same public online identity. GujjarX is a technology-focused public online identity. GujjarX works across AI automation, WhatsApp Business Platform/API systems, websites, SEO, server and VPS automation, API integrations and digital product development.
 
 ## Public facts
 - Public name: GujjarX
