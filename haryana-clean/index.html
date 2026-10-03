@@ -8,14 +8,14 @@
 <meta name="description" content="Clean homepage preview for Satta King Haryana with visible live results, today and yesterday results, six market links, and 2014–2026 result archive.">
 <style>
 :root{
-  --green:#0f6b46;--green-dark:#0a4c34;--green-soft:#eaf6f0;--gold:#f0b429;
-  --red:#d92d20;--ink:#18231d;--muted:#647168;--line:#dce6e0;--bg:#f6f8f7;--white:#fff;
+  --green:#0b6b3a;--green-dark:#064728;--green-soft:#e8f7ee;--gold:#f4b400;
+  --saffron:#f47a1f;--cream:#fffaf0;--red:#d9232e;--ink:#17231c;--muted:#657168;--line:#d9e6dd;--bg:#f4f8f5;--white:#fff;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+body{margin:0;background:linear-gradient(180deg,#f2f8f4 0,#fffaf0 45%,#f5f8f6 100%);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
 a{text-decoration:none;color:inherit}
-.preview{background:#102019;color:#fff;text-align:center;padding:7px 12px;font-size:10px;font-weight:800;letter-spacing:.1em}
+.preview{background:linear-gradient(90deg,var(--green-dark),var(--green));color:#fff;text-align:center;padding:7px 12px;font-size:10px;font-weight:800;letter-spacing:.1em}
 .site{max-width:1180px;margin:auto;background:#fff;min-height:100vh}
 .header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
 .top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 20px}
@@ -23,10 +23,10 @@ a{text-decoration:none;color:inherit}
 .brand strong{display:block;font-size:18px}.brand span{display:block;color:var(--muted);font-size:9px;margin-top:2px;letter-spacing:.08em;text-transform:uppercase}
 .updated{font-size:10px;color:var(--muted);text-align:right}.updated b{display:block;color:var(--green);font-size:11px}
 .nav{display:flex;gap:4px;flex-wrap:wrap;padding:0 20px 10px}.nav a{padding:8px 10px;border-radius:8px;font-size:11px;font-weight:750}.nav a:hover,.nav a.active{background:var(--green-soft);color:var(--green-dark)}
-.hero{padding:26px 20px;background:linear-gradient(180deg,#f2fbf6,#fff);border-bottom:1px solid var(--line)}
+.hero{padding:26px 20px;background:linear-gradient(120deg,#effaf3 0,#fffaf0 58%,#fff 100%);border-bottom:1px solid var(--line)}
 .breadcrumb{font-size:10px;color:var(--muted);margin-bottom:10px}.hero h1{margin:0;font-size:clamp(30px,5vw,48px);letter-spacing:-.035em;line-height:1.05}.hero h1 span{color:var(--green)}
 .hero p{max-width:780px;margin:12px 0 0;color:var(--muted);font-size:13px;line-height:1.65}
-.quickline{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.quickline a{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 11px;font-size:10px;font-weight:750}.quickline a.primary{background:var(--green);color:#fff;border-color:var(--green)}
+.quickline{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.quickline a{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 11px;font-size:10px;font-weight:750}.quickline a.primary{background:linear-gradient(135deg,var(--green),var(--green-dark));color:#fff;border-color:var(--green)}
 .wrap{padding:16px 20px 28px}
 .section{margin-top:14px}.section:first-child{margin-top:0}
 .section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:9px}.section-head h2{margin:0;font-size:20px}.section-head p{margin:0;color:var(--muted);font-size:10px}
@@ -34,21 +34,22 @@ a{text-decoration:none;color:inherit}
 .livecard{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fff}.livecard.next{background:#fff9e8;border-color:#ead7a1}.livecard.latest{background:#eef9f3;border-color:#c7e7d6}
 .livecard small{display:block;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.08em;font-weight:800}.livecard h3{margin:5px 0 4px;font-size:18px}.big{font-size:32px;font-weight:950;color:var(--red)}.wait{color:#7a8780}
 .market-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:9px}
-.market{border:1px solid var(--line);border-radius:12px;background:#fff;overflow:hidden}.market-head{background:var(--green-soft);padding:9px 8px;font-size:10px;font-weight:900;text-align:center;color:var(--green-dark);text-transform:uppercase}.market-body{text-align:center;padding:13px 8px}
-.market-num{font-size:34px;font-weight:950;color:var(--red)}.market-num.wait{color:#9aa49f}.market-time{font-size:9px;color:var(--muted);margin-top:5px}.market-link{display:block;border-top:1px solid var(--line);padding:8px;text-align:center;font-size:9px;font-weight:800;color:var(--green)}
+.market{border:1px solid var(--line);border-radius:12px;background:#fff;overflow:hidden}.market-head{background:linear-gradient(180deg,#eef9f2,#e2f3e8);padding:9px 8px;font-size:10px;font-weight:900;text-align:center;color:var(--green-dark);text-transform:uppercase}.market-body{text-align:center;padding:13px 8px}
+.market-num{font-size:34px;font-weight:950;color:var(--red)}.market-num.wait{color:#9aa49f}.market-time{font-size:9px;color:var(--muted);margin-top:5px}.market-link{display:block;border-top:1px solid var(--line);padding:8px;text-align:center;font-size:9px;font-weight:850;color:var(--green-dark);background:#fffdf8}
 .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .card{border:1px solid var(--line);border-radius:12px;background:#fff;overflow:hidden}.card-head{padding:12px 14px;border-bottom:1px solid var(--line);background:#fbfcfb}.card-head h3{margin:0;font-size:15px}.card-head span{display:block;color:var(--muted);font-size:9px;margin-top:3px}
 table{width:100%;border-collapse:collapse;font-size:11px}th,td{padding:9px 10px;border-bottom:1px solid #edf1ef;text-align:left}th{font-size:9px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);background:#fff}.num{font-weight:950;color:var(--red);font-size:15px}.status{font-size:8px;font-weight:850;padding:4px 6px;border-radius:999px;background:#e7f6ee;color:var(--green)}.status.wait{background:#f0f2f1;color:#7c8881}
-.archive{border:1px solid var(--line);border-radius:12px;background:#fff;padding:14px}.archive-intro{display:flex;align-items:center;justify-content:space-between;gap:12px}.archive-intro h3{margin:0;font-size:17px}.archive-intro p{margin:4px 0 0;color:var(--muted);font-size:10px}.years{display:grid;grid-template-columns:repeat(13,1fr);gap:6px;margin-top:12px}.year{border:1px solid var(--line);border-radius:8px;text-align:center;padding:9px 4px;font-size:9px;font-weight:850;background:#fff}.year:hover{border-color:#a9cdb9;color:var(--green)}
+.archive{border:1px solid #eadcb9;border-radius:14px;background:linear-gradient(135deg,#fffdf8,#fff8e8);padding:15px}.archive-intro{display:flex;align-items:center;justify-content:space-between;gap:12px}.archive-intro h3{margin:0;font-size:17px}.archive-intro p{margin:4px 0 0;color:var(--muted);font-size:10px}.years{display:grid;grid-template-columns:repeat(13,1fr);gap:6px;margin-top:12px}.year{border:1px solid #d9e4dc;border-radius:8px;text-align:center;padding:9px 4px;font-size:9px;font-weight:850;background:#fff}.year:hover{border-color:var(--green);color:var(--green);background:var(--green-soft)}
+.monthly{margin-top:13px;border-top:1px solid #eadcb9;padding-top:13px}.monthly-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.monthly-head h4{margin:0;font-size:14px}.monthly-head span{font-size:9px;color:var(--muted)}.months{display:grid;grid-template-columns:repeat(12,1fr);gap:6px;margin-top:10px}.month{padding:10px 4px;text-align:center;border-radius:8px;border:1px solid #e7dcc4;background:#fff;font-size:9px;font-weight:850;color:#445149}.month:hover{border-color:var(--saffron);color:#a54608;background:#fff3e7}.month.current{background:linear-gradient(135deg,var(--gold),var(--saffron));border-color:transparent;color:#291708;box-shadow:0 5px 14px rgba(244,122,31,.18)}.month small{display:block;font-size:7px;margin-top:3px;opacity:.75}
 .content{display:grid;grid-template-columns:1.2fr .8fr;gap:12px}
 .textbox,.links{border:1px solid var(--line);border-radius:12px;background:#fff;padding:15px}.textbox h2,.links h3{margin:0 0 8px;font-size:17px}.textbox p{margin:0;color:#56645c;font-size:11px;line-height:1.7}.linkgrid{display:grid;grid-template-columns:1fr 1fr;gap:7px}.linkgrid a{border:1px solid var(--line);border-radius:8px;padding:9px;font-size:9px;font-weight:750;background:#fbfcfb}
 .faq{border:1px solid var(--line);border-radius:12px;background:#fff;padding:15px}.faq h2{margin:0 0 10px;font-size:17px}.faq-item{padding:10px 0;border-top:1px solid var(--line)}.faq-item:first-of-type{border-top:0}.faq-item h3{margin:0 0 4px;font-size:12px}.faq-item p{margin:0;color:var(--muted);font-size:10px;line-height:1.6}
 .footer{border-top:1px solid var(--line);padding:18px 20px;background:#fbfcfb;display:flex;justify-content:space-between;gap:12px;align-items:center}.footer strong{font-size:13px}.footer span{font-size:9px;color:var(--muted)}
 .mobile-nav{display:none}
-@media(max-width:950px){.market-grid{grid-template-columns:repeat(3,1fr)}.years{grid-template-columns:repeat(7,1fr)}}
+@media(max-width:950px){.market-grid{grid-template-columns:repeat(3,1fr)}.years{grid-template-columns:repeat(7,1fr)}.months{grid-template-columns:repeat(6,1fr)}}
 @media(max-width:680px){
  .top{padding:11px 12px}.nav{display:none}.wrap{padding:12px}.hero{padding:20px 12px}.brand strong{font-size:15px}.brand span{font-size:7px}.updated{font-size:8px}.updated b{font-size:9px}
- .livebar,.grid-2,.content{grid-template-columns:1fr}.market-grid{grid-template-columns:repeat(2,1fr)}.years{grid-template-columns:repeat(4,1fr)}.section-head p{display:none}.market-num{font-size:31px}
+ .livebar,.grid-2,.content{grid-template-columns:1fr}.market-grid{grid-template-columns:repeat(2,1fr)}.years{grid-template-columns:repeat(4,1fr)}.months{grid-template-columns:repeat(3,1fr)}.section-head p{display:none}.market-num{font-size:31px}
  .footer{padding-bottom:72px;flex-direction:column;align-items:flex-start}.mobile-nav{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:8px;right:8px;bottom:8px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.12);z-index:30}.mobile-nav a{text-align:center;padding:8px 3px;font-size:8px;font-weight:800;color:#516057}.mobile-nav b{display:block;font-size:14px;color:var(--green);margin-bottom:2px}
 }
 </style>
@@ -62,7 +63,7 @@ table{width:100%;border-collapse:collapse;font-size:11px}th,td{padding:9px 10px;
     <div class="updated">Last updated<b>03 Oct 2026 • 09:47 PM</b></div>
   </div>
   <nav class="nav">
-    <a class="active" href="#">Home</a><a href="#live">Live Result</a><a href="#today">Today / Yesterday</a><a href="#markets">Markets</a><a href="#archive">2014–2026 Archive</a><a href="#about">About</a>
+    <a class="active" href="#">Home</a><a href="#live">Live Result</a><a href="#today">Today / Yesterday</a><a href="#markets">Markets</a><a href="#archive">Year Chart</a><a href="#monthly">Monthly Chart</a><a href="#about">About</a>
   </nav>
 </header>
 
@@ -70,7 +71,7 @@ table{width:100%;border-collapse:collapse;font-size:11px}th,td{padding:9px 10px;
   <div class="breadcrumb">Home › Haryana Result</div>
   <h1>Satta King Haryana <span>— Haryana Satta Result</span></h1>
   <p>Clean result homepage with current market status, today and yesterday results, six market pages and historical result archive from 2014 to 2026. Everything important is visible directly on the homepage without hidden tabs or heavy scripts.</p>
-  <div class="quickline"><a class="primary" href="#today">Today Result</a><a href="#archive">2014–2026 Chart</a><a href="#markets">All Markets</a></div>
+  <div class="quickline"><a class="primary" href="#today">Today Result</a><a href="#archive">2014–2026 Chart</a><a href="#monthly">Monthly Chart</a><a href="#markets">All Markets</a></div>
 </section>
 
 <main class="wrap">
@@ -123,6 +124,12 @@ table{width:100%;border-collapse:collapse;font-size:11px}th,td{padding:9px 10px;
     <div class="archive-intro"><div><h3>Haryana Result Chart — 2014 to 2026</h3><p>Year links are directly visible on the homepage. Month pages can open separately.</p></div></div>
     <div class="years">
       <a class="year" href="#">2014</a><a class="year" href="#">2015</a><a class="year" href="#">2016</a><a class="year" href="#">2017</a><a class="year" href="#">2018</a><a class="year" href="#">2019</a><a class="year" href="#">2020</a><a class="year" href="#">2021</a><a class="year" href="#">2022</a><a class="year" href="#">2023</a><a class="year" href="#">2024</a><a class="year" href="#">2025</a><a class="year" href="#">2026</a>
+    </div>
+    <div class="monthly" id="monthly">
+      <div class="monthly-head"><h4>2026 Monthly Result Chart</h4><span>Select month to open full six-market chart</span></div>
+      <div class="months">
+        <a class="month" href="#">Jan<small>2026</small></a><a class="month" href="#">Feb<small>2026</small></a><a class="month" href="#">Mar<small>2026</small></a><a class="month" href="#">Apr<small>2026</small></a><a class="month" href="#">May<small>2026</small></a><a class="month" href="#">Jun<small>2026</small></a><a class="month" href="#">Jul<small>2026</small></a><a class="month" href="#">Aug<small>2026</small></a><a class="month" href="#">Sep<small>2026</small></a><a class="month current" href="#">Oct<small>Current</small></a><a class="month" href="#">Nov<small>2026</small></a><a class="month" href="#">Dec<small>2026</small></a>
+      </div>
     </div>
   </section>
 
