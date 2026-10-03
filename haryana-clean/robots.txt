@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Preview only. Final domain will use Allow: / and the production sitemap.
+Sitemap: https://gujjar-x.github.io/haryana-clean/sitemap.xml
