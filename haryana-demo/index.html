@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>Satta Haryana King - Design Preview</title>
+<style>
+:root{
+  --green:#064c34;--green2:#073b2d;--green3:#0b5c40;--gold:#ffd83d;--cream:#fffdf6;
+  --red:#e51e28;--ink:#17211d;--muted:#6b756f;--line:#dfe6e2;--blue:#176fe8;
+  --orange:#ff5b0b;--purple:#6940d8;--shadow:0 12px 28px rgba(0,0,0,.09)
+}
+*{box-sizing:border-box}body{margin:0;background:#eef3f0;color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+a{text-decoration:none;color:inherit}.preview{background:#101814;color:#dbe6df;text-align:center;padding:8px 12px;font-size:12px;letter-spacing:.05em}
+.site{max-width:1180px;margin:auto;background:#fff;min-height:100vh;box-shadow:0 0 0 1px #e7ece9}
+header{background:linear-gradient(135deg,var(--green2),#003b2d 70%);color:#fff;position:relative;overflow:hidden}
+header:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 15% 20%,rgba(255,216,61,.08),transparent 30%),radial-gradient(circle at 80% 0,rgba(255,255,255,.06),transparent 25%);pointer-events:none}
+.top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:18px 26px;position:relative;z-index:1}
+.brand{display:flex;align-items:center;gap:13px}.crown{font-size:42px;filter:drop-shadow(0 4px 8px rgba(0,0,0,.25))}
+.brand h2{margin:0;font-size:28px;line-height:1;font-weight:900;letter-spacing:.01em}.brand h2 span{color:var(--gold)}
+.brand small{display:block;margin-top:7px;font-size:11px;font-weight:700;letter-spacing:.08em;color:#e9fff6}
+.live-date{border:1px solid rgba(255,216,61,.85);border-radius:12px;overflow:hidden;min-width:150px;text-align:center;background:rgba(0,0,0,.13)}
+.live-date b{display:block;background:var(--gold);color:#1e2a23;padding:7px;font-size:12px}.live-date span{display:block;padding:8px;font-size:13px;font-weight:800}
+nav{display:flex;gap:30px;padding:0 26px;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08);position:relative;z-index:1}
+nav a{padding:13px 0;font-size:14px;font-weight:700;color:#f2fff9}nav a.active{color:var(--gold);border-bottom:3px solid var(--gold)}
+.hero{padding:28px 24px 26px;text-align:center;background:linear-gradient(180deg,#06452f,#053c2b);color:#fff}
+.hero h1{margin:0;font-size:43px;line-height:1.08;font-weight:950}.hero h1 span{color:var(--gold)}
+.hero p{margin:12px 0 0;color:#e8f8f1;font-weight:650}
+.wrap{padding:18px;background:#f6f8f7}
+.market-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:-6px}
+.market{background:#fff;border-radius:12px;border:1px solid #dfe7e3;overflow:hidden;box-shadow:var(--shadow);text-align:center}
+.market-head{background:linear-gradient(180deg,#ffe66a,var(--gold));padding:9px 6px;font-size:12px;font-weight:900}
+.market-num{font-size:38px;color:var(--red);font-weight:950;padding-top:13px;line-height:1}.market.wait .market-num{color:#27332e}
+.market-date{font-size:11px;margin-top:8px;color:#4d5953}.pill{display:inline-block;margin:10px 0 13px;padding:5px 13px;border-radius:999px;font-size:10px;font-weight:900;color:#fff;background:#17a05e}
+.market.wait .pill{background:#93a0a6}
+.quick{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0}
+.q{border-radius:11px;color:#fff;padding:16px 14px;display:flex;gap:10px;align-items:center;box-shadow:var(--shadow)}.q.green{background:linear-gradient(135deg,#0e9f5c,#0d7f4a)}.q.blue{background:linear-gradient(135deg,#257ce6,#0d5fc6)}.q.orange{background:linear-gradient(135deg,#ff7426,#ef4b00)}.q.purple{background:linear-gradient(135deg,#7957e3,#5430bf)}
+.q .icon{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.15);font-size:20px}.q strong{display:block;font-size:14px}.q small{display:block;margin-top:4px;color:#eef7f3}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.card{background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:15px}
+.card h3{margin:0 0 12px;font-size:18px}.table{width:100%;border-collapse:collapse;font-size:13px}.table th,.table td{border:1px solid #e2e7e4;padding:10px;text-align:left}.table th{background:#eff3f1;font-size:12px}.table td.result{color:var(--red);font-weight:900}.status{padding:5px 9px;border-radius:7px;background:#149c5b;color:#fff;font-size:10px;font-weight:800}.status.waiting{background:#e8ecea;color:#54605a}
+.year-card{margin-top:12px}.year-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:10px}.year{border:1px solid #dce3df;background:#fff;border-radius:9px;padding:13px 10px;text-align:center;font-weight:800;font-size:13px;transition:.2s}.year:hover{transform:translateY(-2px);border-color:#b8c8bf;box-shadow:0 8px 18px rgba(0,0,0,.06)}
+.about{margin-top:12px;background:linear-gradient(135deg,var(--green2),var(--green));color:#fff;border-radius:12px;padding:20px}.about h3{margin:0 0 10px;font-size:20px}.about p{margin:0;line-height:1.7;color:#e8f7f0;font-size:14px}
+.links{margin-top:12px}.link-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.link-grid a{border:1px solid #dce4e0;border-radius:8px;padding:10px;background:#fff;text-align:center;font-size:12px;font-weight:700}
+footer{background:#071f1a;color:#dce8e3;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}.foot-brand{font-weight:900;font-size:18px}.foot-brand span{color:var(--gold)}footer small{color:#9fb2aa}
+.mobilebar{display:none}
+@media(max-width:900px){.market-grid{grid-template-columns:repeat(3,1fr)}.year-grid{grid-template-columns:repeat(4,1fr)}.quick{grid-template-columns:repeat(2,1fr)}nav{gap:18px;overflow:auto}.hero h1{font-size:36px}}
+@media(max-width:640px){
+ .site{box-shadow:none}.preview{font-size:10px}.top{padding:12px 14px}.crown{font-size:30px}.brand h2{font-size:18px}.brand small{font-size:8px}.live-date{min-width:110px}.live-date b,.live-date span{font-size:10px;padding:6px}
+ nav{display:none}.mobilebar{display:flex;justify-content:space-between;align-items:center;padding:11px 14px;background:#053b2b;color:#fff;border-top:1px solid rgba(255,255,255,.1)}.mobilebar b{font-size:12px}.mobilebar span{font-size:22px}
+ .hero{padding:22px 14px}.hero h1{font-size:28px}.hero p{font-size:12px}.wrap{padding:10px}.market-grid{grid-template-columns:repeat(2,1fr);gap:9px}.market-num{font-size:34px}.quick{grid-template-columns:1fr;gap:8px;margin:12px 0}.q{padding:13px}
+ .two{grid-template-columns:1fr}.card{padding:11px}.table{font-size:12px}.table th,.table td{padding:8px 6px}.year-grid{grid-template-columns:repeat(3,1fr);gap:8px}.year{padding:10px 6px}.link-grid{grid-template-columns:repeat(2,1fr)}footer{flex-direction:column;align-items:flex-start}
+}
+</style>
+</head>
+<body>
+<div class="preview">DESIGN PREVIEW • GITHUB PAGES • NOT THE FINAL DOMAIN</div>
+<div class="site">
+<header>
+  <div class="top">
+    <div class="brand"><div class="crown">👑</div><div><h2>SATTA <span>HARYANA</span> KING</h2><small>HARYANA SATTA RESULT • FAST • CLEAN • RESPONSIVE</small></div></div>
+    <div class="live-date"><b>LIVE UPDATE</b><span>03 Oct 2026</span></div>
+  </div>
+  <nav>
+    <a class="active" href="#">Home</a><a href="#today">Today Result</a><a href="#chart">Chart</a><a href="#markets">All Market</a><a href="#yearwise">Yearwise</a><a href="#yearwise">Monthly</a><a href="#about">About</a>
+  </nav>
+  <div class="mobilebar"><b>HARYANA SATTA RESULT</b><span>☰</span></div>
+</header>
+
+<section class="hero">
+  <h1>Satta King Haryana<br><span>Haryana Satta Result</span></h1>
+  <p>Fast result view • Clean chart layout • Daily update</p>
+</section>
+
+<main class="wrap">
+  <section id="markets" class="market-grid">
+    <article class="market"><div class="market-head">DESAWAR</div><div class="market-num">18</div><div class="market-date">03 Oct 2026</div><div class="pill">LIVE</div></article>
+    <article class="market"><div class="market-head">DELHI BAZAR</div><div class="market-num">25</div><div class="market-date">03 Oct 2026</div><div class="pill">LIVE</div></article>
+    <article class="market"><div class="market-head">SHREE GANESH</div><div class="market-num">54</div><div class="market-date">03 Oct 2026</div><div class="pill">LIVE</div></article>
+    <article class="market"><div class="market-head">FARIDABAD</div><div class="market-num">58</div><div class="market-date">03 Oct 2026</div><div class="pill">LIVE</div></article>
+    <article class="market wait"><div class="market-head">GHAZIABAD</div><div class="market-num">--</div><div class="market-date">03 Oct 2026</div><div class="pill">WAIT</div></article>
+    <article class="market wait"><div class="market-head">GALI</div><div class="market-num">--</div><div class="market-date">03 Oct 2026</div><div class="pill">WAIT</div></article>
+  </section>
+
+  <section class="quick">
+    <a class="q green" href="#today"><span class="icon">📅</span><span><strong>Today Result</strong><small>03 Oct 2026</small></span></a>
+    <a class="q blue" href="#yesterday"><span class="icon">🗓️</span><span><strong>Yesterday Result</strong><small>02 Oct 2026</small></span></a>
+    <a class="q orange" href="#chart"><span class="icon">📊</span><span><strong>All Market Chart</strong><small>2014 – 2026</small></span></a>
+    <a class="q purple" href="#yearwise"><span class="icon">📆</span><span><strong>Year Wise Result</strong><small>Select Year</small></span></a>
+  </section>
+
+  <section class="two">
+    <div class="card" id="today">
+      <h3>🏆 Today Satta Result - 03 Oct 2026</h3>
+      <table class="table"><thead><tr><th>Market</th><th>Result</th><th>Status</th></tr></thead><tbody>
+        <tr><td>Desawar</td><td class="result">18</td><td><span class="status">Live</span></td></tr>
+        <tr><td>Delhi Bazar</td><td class="result">25</td><td><span class="status">Live</span></td></tr>
+        <tr><td>Shree Ganesh</td><td class="result">54</td><td><span class="status">Live</span></td></tr>
+        <tr><td>Faridabad</td><td class="result">58</td><td><span class="status">Live</span></td></tr>
+        <tr><td>Ghaziabad</td><td class="result">--</td><td><span class="status waiting">Waiting</span></td></tr>
+        <tr><td>Gali</td><td class="result">--</td><td><span class="status waiting">Waiting</span></td></tr>
+      </tbody></table>
+    </div>
+    <div class="card" id="yesterday">
+      <h3>⏱️ Yesterday Result - 02 Oct 2026</h3>
+      <table class="table"><thead><tr><th>Market</th><th>Result</th><th>Date</th></tr></thead><tbody>
+        <tr><td>Desawar</td><td class="result">52</td><td>02 Oct</td></tr>
+        <tr><td>Delhi Bazar</td><td class="result">25</td><td>02 Oct</td></tr>
+        <tr><td>Shree Ganesh</td><td class="result">31</td><td>02 Oct</td></tr>
+        <tr><td>Faridabad</td><td class="result">05</td><td>02 Oct</td></tr>
+        <tr><td>Ghaziabad</td><td class="result">81</td><td>02 Oct</td></tr>
+        <tr><td>Gali</td><td class="result">01</td><td>02 Oct</td></tr>
+      </tbody></table>
+    </div>
+  </section>
+
+  <section class="card year-card" id="yearwise">
+    <h3>📊 Year Wise Result Chart (2014 - 2026)</h3>
+    <div class="year-grid">
+      <a class="year" href="#">2014 →</a><a class="year" href="#">2015 →</a><a class="year" href="#">2016 →</a><a class="year" href="#">2017 →</a><a class="year" href="#">2018 →</a><a class="year" href="#">2019 →</a><a class="year" href="#">2020 →</a><a class="year" href="#">2021 →</a><a class="year" href="#">2022 →</a><a class="year" href="#">2023 →</a><a class="year" href="#">2024 →</a><a class="year" href="#">2025 →</a><a class="year" href="#">2026 →</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h3>👑 About Satta King Haryana</h3>
+    <p>This is a design-only preview for the Haryana result website. The final site can use the same fast mobile-first layout with current results, Today/Yesterday data, six market pages and year/month archives from 2014 to 2026.</p>
+  </section>
+
+  <section class="card links">
+    <h3>🔗 Popular Links</h3>
+    <div class="link-grid">
+      <a href="#">Desawar Result</a><a href="#">Delhi Bazar Result</a><a href="#">Shree Ganesh Result</a><a href="#">Faridabad Result</a>
+      <a href="#">Ghaziabad Result</a><a href="#">Gali Result</a><a href="#">Satta Chart</a><a href="#">Monthly Chart</a>
+    </div>
+  </section>
+</main>
+
+<footer><div class="foot-brand">👑 SATTA <span>HARYANA</span> KING</div><small>GitHub design preview • Final domain not connected</small></footer>
+</div>
+</body>
+</html>
